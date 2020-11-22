@@ -11,7 +11,7 @@ setuptools.setup(
 	description='visualization tool for tensor in CNN',
 	long_description=long_description,
 	long_description_content_type='text/markdown',
-	url='https://test.pypi.org/project/visactivation',
+	url='https://github.com/YudeWang/visactivation',
 	packages=setuptools.find_packages(),
 	classifiers=[
 		'Programming Language :: Python :: 3',
