@@ -4,6 +4,14 @@ Written by YudeWang
 
 A simple visualization tool for tensor activation in CNN.
 
+### Install
+```
+pip install visactivation
+```
+
+
+### Document
+
 ```
 visactivation.Tensor2Color(tensor, input_type=None, image=None, image_weight=0.3, colormap=cv2.COLORMAP_JET, act_type='max', norm_type='all')
 ```
@@ -29,7 +37,7 @@ Parameters:
 
 Return:
 
-N x C x H x W x 3 size numpy array
+N x C x H x W x 3 size numpy ndarray
 
 ```
 visactivation.Prob2Color(tensor, input_type=None, image=None, image_weight=0.3, colormap=cv2.COLORMAP_JET, act_type='max')
@@ -53,7 +61,7 @@ Parameters:
 
 Return:
 
-N x C x H x W x 3 size numpy array
+N x C x H x W x 3 size numpy ndarray
 
 ```
 visactivation.Label2Color(tensor, image=None, image_weight=0.3, colormap='random')
@@ -69,4 +77,4 @@ Parameters:
 
 Return:
 
-N x H x W x 3 size numpy array
+N x H x W x 3 size numpy ndarray
